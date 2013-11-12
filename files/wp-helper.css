@@ -1,0 +1,140 @@
+.ir {
+  display: block;
+  border: 0;
+  text-indent: -999em;
+  overflow: hidden;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  text-align: left;
+  direction: ltr;
+}
+
+.ir br {
+  display: none;
+}
+
+.hidden {
+  display: none!important;
+  visibility: hidden;
+}
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.clearfix:before,.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+ol.commentlist {
+  list-style: none;
+}
+
+ol.commentlist li.comment {
+  border-bottom: 1px dotted #666;
+  padding: 10px;
+}
+
+ol.commentlist li.comment div.vcard cite.fn {
+  font-style: normal;
+}
+
+ol.commentlist li.comment div.vcard img.avatar {
+  float: right;
+  margin: 0 0 10px 10px;
+}
+
+ol.commentlist li.comment div.comment-meta {
+  font-size: 10px;
+}
+
+ol.commentlist li.comment div.comment-meta a {
+  color: #ccc;
+}
+
+ol.commentlist li.comment div.reply {
+  font-size: 11px;
+}
+
+ol.commentlist li.comment div.reply a {
+  font-weight: bold;
+}
+
+ol.commentlist li.comment ul.children {
+  list-style: none;
+  margin: 10px 0 0;
+}
+
+ol.commentlist li.comment ul.children li.depth-2 {
+  border-left: 5px solid #555;
+  margin: 0 0 10px 10px;
+}
+
+ol.commentlist li.comment ul.children li.depth-3 {
+  border-left: 5px solid #999;
+  margin: 0 0 10px 10px;
+}
+
+ol.commentlist li.comment ul.children li.depth-4 {
+  border-left: 5px solid #bbb;
+  margin: 0 0 10px 10px;
+}
+
+ol.commentlist li.even {
+  background: #fff;
+}
+
+ol.commentlist li.odd {
+  background: #f6f6f6;
+}
+
+ol.commentlist li.parent {
+  border-left: 5px solid #111;
+}
+
+.clearFloat {
+  clear: both;
+}
+
+.alignLeft,.alignCenter,.alignRight {
+  position: relative;
+  float: left;
+}
+
+.alignCenter {
+  float: none;
+  margin: inherit auto;
+}
+
+.alignRight {
+  float: right;
+}

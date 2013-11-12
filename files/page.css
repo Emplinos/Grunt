@@ -1,0 +1,612 @@
+.page .feature_and_announcements .container {
+  height: auto;
+}
+
+.pageContent,.pageSidebar {
+  background: #fff;
+  position: relative;
+}
+
+.pageContent article {
+  margin: 0 10px;
+}
+
+.pageContent .entry-header {
+  position: absolute;
+  top: -160px;
+  color: #fff;
+}
+
+.entry-title {
+  font: 400 2.8em/2em 'Oswald',Impact,Arial,sans-serif;
+  margin: 0;
+  color: #fff;
+}
+
+.pageContent .entry-content {
+  position: relative;
+  padding-top: 10px;
+}
+
+.entry-content h1,.entry-content h2,.entry-content h3,.entry-content h4,.entry-content h5,.entry-content h6 {
+  margin: 1.4em 0 .4em;
+}
+
+.type-sessions h1 a,.type-sessions h2 a,.type-sessions h3 a {
+  border-bottom: 0;
+}
+
+.tight,h2.tight {
+  margin: .4em 0 0;
+}
+
+.entry-content h5,.entry-content h6 {
+  font-family: "Segoe UI Light","helvetica neue",Helvetica,Arial,sans-serif;
+  text-transform: uppercase;
+}
+
+.entry-content p {
+  margin-top: 0;
+}
+
+.entry-content li {
+  font-size: 1.25em;
+  line-height: 1.4em;
+}
+
+.entry-content li li {
+  font-size: 1em;
+}
+
+.entry-content .callout {
+  background: #eee;
+  border: 2px dashed #ddd;
+  text-align: center;
+}
+
+.entry-content .callout h3 {
+  margin: .4em 0;
+}
+
+.breadcrumbs {
+  overflow: hidden;
+  width: 700px;
+  margin: 0;
+  padding-left: 2px;
+  list-style: none;
+  position: relative;
+  top: 35px;
+  background: #fff;
+  background: rgba(255,255,255,0.5);
+}
+
+.tag .breadcrumbs,.category .breadcrumbs {
+  top: 100px;
+}
+
+.breadcrumbs li {
+  float: left;
+  margin: 0;
+  height: 40px;
+}
+
+.breadcrumbs a,.breadcrumbs span {
+  margin: 5px 2px;
+  float: left;
+  height: 30px;
+  line-height: 30px;
+  text-decoration: none;
+  color: #fff;
+  position: relative;
+  padding: 0 3px;
+  border-bottom: 0;
+}
+
+.breadcrumbs span {
+  margin-left: 0;
+  padding: 0;
+}
+
+.breadcrumbs a:hover {
+  background: #00539b;
+  border: 0;
+  color: #fff;
+}
+
+.breadcrumbs a.current:hover {
+  background: 0;
+  color: #fff;
+}
+
+.pageSidebar {
+  background: 0;
+}
+
+.page_v2 .pageSidebar {
+  top: 0;
+}
+
+.pageSidebar .widget {
+  background: #fff;
+  padding: 0;
+  margin: 0 0 20px;
+}
+
+.pageSidebar .widget div {
+  padding: 5px;
+}
+
+.pageSidebar .promo {
+  background: #e98505;
+  color: #fff;
+}
+
+.pageSidebar .promo a {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid #fff;
+}
+
+.pageSidebar .promo h3 {
+  background: #975502;
+  color: #fff;
+}
+
+.pageSidebar .apply .menu a:hover {
+  color: #0073cf;
+}
+
+.pageSidebar .sidebarMenu {
+  padding: 0;
+}
+
+.pageSidebar h3 {
+  color: #00539b;
+  padding-left: 5px;
+  margin: 0;
+}
+
+.pageSidebar .menu,.pageSidebar .sub-menu {
+  margin: 0;
+  padding: 0;
+}
+
+.pageSidebar .tweets,.pageSidebar .tweets li,.pageSidebar .menu li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pageSidebar .menu a {
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+  border-bottom: 1px solid #e5f1fa;
+}
+
+.pageSidebar .widget a:hover {
+  background: #f9f9f9;
+  color: #0073cf;
+  text-decoration: none;
+  border-color: #68ade7;
+}
+
+.pageSidebar .promo a:hover {
+  border-bottom: 1px dashed #fff;
+  background: 0;
+}
+
+.pageSidebar .sub-menu a {
+  padding-left: 10px;
+}
+
+.pageSidebar .sub-menu .sub-menu a {
+  padding-left: 20px;
+}
+
+.widget_twitter ul {
+  padding-left: 0;
+}
+
+.widget_twitter li {
+  list-style: none;
+  margin-bottom: 9px;
+  padding-bottom: 10px;
+  border-bottom: 1px dashed #00539b;
+}
+
+.session-views {
+  width: 800px;
+}
+
+.controlForm {
+  position: relative;
+}
+
+.controlForm label {
+  color: #fff;
+}
+
+.pageContent .sessions {
+  margin: .5em 10px 1.5em;
+}
+
+.sessions p {
+  margin: 0;
+}
+
+.page-template-session-list-template-php .postform {
+  position: relative;
+}
+
+.page-template-session-list-template-php .controlForm select {
+  margin-bottom: 5px;
+}
+
+.page-template-session-list-template-php .feature_and_announcements .button {
+  padding: 5px 10px;
+  left: -5px;
+  top: 5px;
+  position: relative;
+  display: block;
+}
+
+.session-count {
+  margin: 0 10px;
+  font-style: italic;
+  clear: left;
+}
+
+.postContent .entry-title {
+  color: #222;
+  font-size: 2em;
+}
+
+.session-header h3 {
+  margin-bottom: 0;
+}
+
+.session-header .category {
+  font-size: .5em;
+  font-family: "Segoe UI Light","Segoe UI","helvetica neue",Helvetica,Arial,sans-serif;
+  position: relative;
+  top: -5px;
+}
+
+.single-sessions .mainContainer {
+  top: 50px;
+  margin-bottom: 50px;
+}
+
+.single-sessions .back-to-list {
+  margin: 30px 0 11px;
+  font-size: 1.5em;
+  display: inline-block;
+  width: auto;
+  height: 30px;
+}
+
+.single-sessions .back-to-list:hover {
+  margin-bottom: 10px;
+}
+
+.session-single .entry-header {
+  position: relative;
+  top: auto;
+  color: #222;
+}
+
+.session-single .entry-title {
+  color: #454545;
+  line-height: 1.25em;
+  font-size: 2.5em;
+}
+
+.session-single .session-sentence {
+  font-style: italic;
+}
+
+.session-single .wp-post-image {
+  border-radius: 5px;
+  box-shadow: 0 2px 3px #aaa;
+  margin-bottom: 1.4em;
+}
+
+.session-single p {
+  margin: 0 0 1.4em;
+}
+
+.session-single {
+  border-right: 1px solid #e6e6e6;
+  margin-right: 9px;
+}
+
+.sessionContent {
+  padding-right: 20px;
+}
+
+.sessionContent .separator {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.session-details,.presenter-details {
+  position: relative;
+  margin-bottom: 1.5em;
+}
+
+.session-embed {
+  position: relative;
+  padding-bottom: 75%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+  margin-bottom: 1.5em;
+}
+
+.session-embed.wide {
+  padding-bottom: 56.25%;
+}
+
+.session-embed iframe,.session-embed object {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.session-sidebar h2 {
+  margin: 0;
+}
+
+.session-sidebar p {
+  margin: .5em 0 0;
+  clear: left;
+}
+
+.session-sidebar span {
+  display: block;
+  position: relative;
+  float: left;
+}
+
+.session-sidebar .label {
+  width: 110px;
+  font-weight: 700;
+  height: 30px;
+}
+
+.session-sidebar .presenter {
+  height: 50px;
+}
+
+.session-sidebar .twitter {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.session-sidebar .category {
+  margin-left: 0;
+  padding: 2px 3px;
+}
+
+.session-sidebar .evaluation {
+  margin-top: 20px;
+  display: none;
+}
+
+.session-sidebar .evaluation .button {
+  margin: 0;
+}
+
+.cf:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+* html .cf {
+  zoom: 1;
+}
+
+*:first-child+html .cf {
+  zoom: 1;
+}
+
+.session-grid-table {
+  width: 98%;
+  margin: 0 1%;
+  font-size: 1em;
+  line-height: 1.25em;
+  border-collapse: collapse;
+  border-spacing: 0;
+  clear: left;
+}
+
+.session-grid-table th,.session-grid-table td {
+  margin: 0;
+  padding: 3px;
+  vertical-align: top;
+  border: 5px solid #fff;
+  background: #fff;
+}
+
+.session-grid-table th {
+  text-align: left;
+  background: #fff2b2;
+  font-family: "Segoe UI",Helvetica,Arial,sans-serif;
+  letter-spacing: 1px;
+}
+
+.session-grid-table td {
+  border: 5px solid #fff;
+}
+
+.session-grid-table .livestream {
+  background: #5e9732;
+  color: #fff;
+}
+
+.session-grid-table .weds {
+  background: #fff2b2;
+  color: #000;
+}
+
+.session-grid-table .thursam {
+  background: #efe2a7;
+  background: #eee;
+}
+
+.session-grid-table .thurspm {
+  background: #ccc;
+}
+
+.session-grid-table .fri {
+  background: #e0d49d;
+  background: #fff2b2;
+}
+
+.session-grid-table .blank {
+  background: url(images/dotted_bkg.png) repeat;
+}
+
+.error {
+  color: red;
+}
+
+.grid-legend {
+  display: block;
+  padding-left: 5px;
+}
+
+.grid-legend li {
+  position: relative;
+  float: left;
+  display: block;
+  margin: 4px;
+  font-size: 1.2em;
+}
+
+.session-grid-table a {
+  display: block;
+  width: 100%;
+  height: 75px;
+  color: #fff;
+  border: 0;
+  letter-spacing: 1px;
+  overflow: hidden;
+}
+
+.session-grid-table td a:hover {
+  color: #fff;
+  text-decoration: none;
+  border: 0;
+}
+
+.page-template-session-table-template-php .mainContainer {
+  width: 98%;
+  margin: 1%;
+}
+
+table.grid tr:nth-child(odd) {
+  background: #eee;
+}
+
+table.grid td,table.grid th {
+  border: 1px solid #333;
+}
+
+table.grid th {
+  background: #aaa;
+}
+
+table.grid .time {
+  width: 110px;
+}
+
+table.grid .room {
+  width: 120px;
+}
+
+.session-grid-table .blackboard-2,.grid-legend .blackboard-2,.button.blackboard-2 {
+  background: #d404af;
+}
+
+.session-grid-table .engaged,.grid-legend .engaged,.button.engaged {
+  background: #98002e;
+}
+
+.session-grid-table .moving-forward,.grid-legend .moving-forward,.button.moving-forward {
+  background: #00539b;
+}
+
+.session-grid-table .opportunity,.grid-legend .opportunity,.button.opportunity {
+  background: #640098;
+}
+
+.session-grid-table .personal-wellness,.grid-legend .personal-wellness,.button.personal-wellness {
+  background: #b3a068;
+}
+
+.session-grid-table .professional-development-2,.grid-legend .professional-development-2,.button.professional-development-2 {
+  background: #5e9732;
+}
+
+.session-grid-table .retention,.grid-legend .retention,.button.retention {
+  background: #009b7c;
+}
+
+.session-grid-table .teaching-and-learning,.grid-legend .teaching-and-learning,.button.teaching-and-learning {
+  background: #ff9b25;
+}
+
+.session-grid-table .technology,.grid-legend .technology,.button.technology {
+  background: #6e6e6e;
+}
+
+.session-grid-table .vendor,.grid-legend .vendor,.button.vendor {
+  background: #333;
+}
+
+.session-grid-table .blackboard-2:hover,.button.blackboard-2:hover {
+  background: #dd36bf;
+}
+
+.session-grid-table .engaged:hover,.button.engaged:hover {
+  background: #ad3358;
+}
+
+.session-grid-table .moving-forward:hover,.button.moving-forward:hover {
+  background: #3375af;
+}
+
+.session-grid-table .opportunity:hover,.button.opportunity:hover {
+  background: #8333ad;
+}
+
+.session-grid-table .personal-wellness:hover,.button.personal-wellness:hover {
+  background: #c2b386;
+}
+
+.session-grid-table .professional-development-2:hover,.button.professional-development-2:hover {
+  background: #7eac5b;
+}
+
+.session-grid-table .retention:hover,.button.retention:hover {
+  background: #33af96;
+}
+
+.session-grid-table .teaching-and-learning:hover,.button.teaching-and-learning:hover {
+  background: #ffaf51;
+}
+
+.session-grid-table .technology:hover,.button.technology:hover {
+  background: #999;
+}
+
+.session-grid-table .vendor:hover,.button.vendor:hover {
+  background: #252525;
+}
